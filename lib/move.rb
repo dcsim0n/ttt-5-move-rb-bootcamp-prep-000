@@ -10,6 +10,6 @@ end
 
 def input_to_index(input)
   input = input.strip
-  return input.to_i
+  return input.to_i - 1
 end
 
